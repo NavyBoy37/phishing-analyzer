@@ -1,0 +1,43 @@
+Return-Path: <ap@northwind-supply.test>
+Received: from smtp.northwind-supply.test (smtp.northwind-supply.test [192.0.2.77]) by mx.recipient.example with ESMTPS id 9KfP2; Wed, 04 Nov 2026 14:03:12 -0500
+Authentication-Results: mx.recipient.example;
+ spf=pass smtp.mailfrom=northwind-supply.test;
+ dkim=fail header.d=northwind-supply.test;
+ dmarc=fail header.from=northwind-supply.test
+From: Accounts Payable <ap@northwind-supply.test>
+To: finance@recipient.example
+Subject: FINAL NOTICE - invoice 20931 past due
+Date: Wed, 04 Nov 2026 14:03:10 -0500
+Message-ID: <a1b2c3@northwind-supply.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2797612232592800002=="
+
+--===============2797612232592800002==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Our records show invoice 20931 is past due. Please review the attached invoice
+and remit payment immediately to avoid late fees.
+
+Thanks,
+Accounts Payable
+
+--===============2797612232592800002==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_20931.pdf.exe"
+MIME-Version: 1.0
+
+SGFybWxlc3MgcGxhY2Vob2xkZXIgZm9yIGEgc2FtcGxlLiBUaGlzIGlzIG5vdCBtYWx3YXJlLgo=
+
+--===============2797612232592800002==
+Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="remittance_form.xlsm"
+MIME-Version: 1.0
+
+SGFybWxlc3MgcGxhY2Vob2xkZXIgZm9yIGEgc2FtcGxlLiBObyBtYWNyb3MgaW5zaWRlLgo=
+
+--===============2797612232592800002==--

@@ -1,0 +1,43 @@
+Return-Path: <bounces@examplebank.example>
+Received: from mta2.examplebank.example (mta2.examplebank.example [192.0.2.25]) by mx.recipient.example with ESMTPS id 1AbC3; Thu, 05 Nov 2026 09:30:02 -0500
+Authentication-Results: mx.recipient.example;
+ spf=pass smtp.mailfrom=examplebank.example;
+ dkim=pass header.d=examplebank.example;
+ dmarc=pass header.from=examplebank.example
+From: Example Bank <news@examplebank.example>
+To: customer@recipient.example
+Subject: Your November statement is ready
+Date: Thu, 05 Nov 2026 09:30:00 -0500
+Message-ID: <stmt-2026-11@examplebank.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0644173130253492817=="
+
+--===============0644173130253492817==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Your November statement is now available in online banking.
+We will never ask for your password by email.
+
+View it at https://www.examplebank.example/statements
+
+Example Bank
+
+--===============0644173130253492817==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body>
+<p>Hi,</p>
+<p>Your November statement is now available in online banking.
+We will never ask for your password by email.</p>
+<p><a href=3D"https://www.examplebank.example/statements">View statement</a> |
+<a href=3D"https://www.examplebank.example/preferences">Email preferences</a>=
+</p>
+</body></html>
+
+--===============0644173130253492817==--

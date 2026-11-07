@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.json
+# keep real reported emails out of git, only the made-up samples go in
+*.eml
+!sample_emails/*.eml
